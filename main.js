@@ -22,5 +22,4 @@ var activites = [
     '-help',
     'Dead by Daylight'
 ]
-
-client.login('ODUwNzg5MzYyNTQ2NzY5OTIw.YLu1Vg.MfhU6jAirbmFuSWY9ghU3pFahqo');
+client.login(process.env.DJS_TOKEN);
