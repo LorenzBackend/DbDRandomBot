@@ -9,7 +9,7 @@ module.exports = {
     async execute(client, message, args){
         let Embed = new MessageEmbed()
         .setTitle("Command list")
-            .setColor("RED")
+            .setColor("PURPLE")
             .addField("-s", "Random Survivor :new_moon_with_face: ", true)
             .addField("-k", "Random Killer :knife:", true)
             .addField("-item", "Random Survivor item  *clicky clicky*  ", false)
