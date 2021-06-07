@@ -36,7 +36,7 @@ module.exports = {
         ctx.drawImage(perk4, 535, 50, 125, 125);
 
         const attachment = new Discord.MessageAttachment(canvas.toBuffer(), '');
-        message.channel.send( "**" + message.author.username + " i have sent a perk build in your DM**")
+        message.channel.send( "**" + message.author.username + "your Survivor perk build is**")
         message.channel.send(attachment)
     }
 }
