@@ -39,7 +39,7 @@ module.exports = {
 
         const attachment = new Discord.MessageAttachment(canvas.toBuffer(), '');
         message.channel.send( "**" + message.author.username + " your random Perk Build is**")
-        message.author.send(attachment)
+        message.author.send(attachment).catch(() => message.reply("Can't send DM " + message.author.username + "accept not Direct Messages"));
     }
 }
 
