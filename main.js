@@ -14,17 +14,7 @@ client.on("ready", () => {
     client.user.setActivity('-help');
     setInterval(() => {
         let id = Math.floor(Math.random() * activites.length);
-
-        if (i == 1){
-            client.user.setActivity(activites[0]);
-        }
-
-        if (i == 2){
-            client.user.setActivity(activites[1]);
-            i = 1;
-        }
-        
-        i += 1;
+            client.user.setActivity(activites[id]);
 
     }, 30000);
 }); 
