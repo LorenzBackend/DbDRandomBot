@@ -38,8 +38,8 @@ module.exports = {
         ctx.drawImage(perk4, 535, 50, 125, 125);
 
         const attachment = new Discord.MessageAttachment(canvas.toBuffer(), '');
-        message.channel.send( "**" + message.author.username + " your random Perk Build is**")
-        message.author.send(attachment).catch(() => message.reply("Can't send DM " + message.author.username + "accept not Direct Messages"));
+        message.channel.send( "**" + message.author.username + "i have sent a perk build in your DM**")
+        message.author.send(attachment).catch(() => message.reply("Can't send DM " + message.author.username + " accept not Direct Messages"));
     }
 }
 
