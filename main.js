@@ -22,12 +22,4 @@ var activites = [
     '-help',
     'Dead by Daylight'
 ]
-
-const channel = guild.channels.cache.find(channel => channel.name === 'general') || guild.channels.cache.first();
-if (channel) {
-    channel.send('DBD Randomizer ');
-} else {
-    console.log('The server ' + guild.name + ' has no channels.');
-}
-
 client.login(process.env.DJS_TOKEN);
