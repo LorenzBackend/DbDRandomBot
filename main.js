@@ -20,6 +20,7 @@ client.on("ready", () => {
 
 var activites = [
     '-help',
-    'Dead by Daylight'
+    'Dead by Daylight',
+    `with | ${client.guilds.cache.size} servers`
 ]
 client.login(process.env.DJS_TOKEN);
