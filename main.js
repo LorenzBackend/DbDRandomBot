@@ -20,8 +20,7 @@ client.user.setActivity('-help');
 
 var activites = [
     '-help',
-    'Dead by Daylight',
-    'with |' + client.guilds.cache.size + 'servers'
+    'Dead by Daylight'
 ]
 
 client.login(process.env.DJS_TOKEN);
