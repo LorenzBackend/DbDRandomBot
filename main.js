@@ -23,4 +23,5 @@ var activites = [
     'Dead by Daylight',
     'with |' + client.guilds.cache.size + 'servers'
 ]
+
 client.login(process.env.DJS_TOKEN);
