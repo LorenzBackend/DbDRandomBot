@@ -10,13 +10,7 @@ client.events = new Discord.Collection();
 })
 
 client.on("ready", () => {
-    const channel = client.guild.channels.cache.find(channel => channel.name === 'general') || client.guild.channels.cache.first();
-if (channel) {
-    channel.send('DBD Randomizer Updateted by Developer');
-} else {
-    console.log('The server ' + guild.name + ' has no channels.');
-}
-   // client.user.setActivity('-help');
+   client.user.setActivity('-help');
     setInterval(() => {
         let id = Math.floor(Math.random() * activites.length);
         client.user.setActivity(activites[id]);
