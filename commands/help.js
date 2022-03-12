@@ -17,7 +17,7 @@ module.exports = {
             .addField("-kbuild", "Random Killer Perk Build", false)
             .addField("-spbuild", "Random Survivor Perk Build (Private DM)", false)
             .addField("-kpbuild", "Random Killer Perk Build (Private DM)", false)
-            .setFooter("Developer: LorenzFresh");
+            .setFooter("Developer: LorenzBackend ");
 
             message.channel.send(Embed);
     }
